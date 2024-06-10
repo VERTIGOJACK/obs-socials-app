@@ -1,0 +1,98 @@
+:root {
+  --text-color: "none";
+  --title-color: "none";
+}
+
+h1,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  overflow: hidden;
+  height: 100px;
+  width: 400px;
+}
+
+img {
+  height: 50px;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+}
+
+.container {
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  display: flex;
+  transform-origin: bottom;
+  align-items: center;
+  justify-content: space-around;
+  filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 1));
+}
+
+.names-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.names-container h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: var(--title-color);
+  text-transform: capitalize;
+  font-size: 1em;
+  transform-origin: left;
+}
+.names-container p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+    Verdana, sans-serif;
+  font-weight: bold;
+  color: var(--text-color);
+  font-size: 2em;
+  transform-origin: bottom;
+}
+
+.activate {
+  transform: translateY(0%);
+  transition: 0.4s cubic-bezier(0.47, 1.64, 0.41, 0.8);
+  opacity: 1;
+}
+
+.activate img {
+  transform: scaleX(1) translateY(0%) rotateY(360deg);
+  transition: 1s cubic-bezier(0.47, 1.64, 0.41, 0.8);
+}
+
+.activate h1 {
+  transform: scaleX(1) translateY(0%);
+  transition: 0.5s cubic-bezier(0.47, 1.64, 0.41, 0.8);
+}
+
+.activate p {
+  transform: scaleX(1) translateY(0%);
+  transition: 0.5s cubic-bezier(0.47, 1.64, 0.41, 0.8);
+}
+
+.deactivate {
+  transform: translateY(100%);
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.deactivate img {
+  transform: scaleX(0) translateY(100%);
+  transition: 2s cubic-bezier(0.47, 1.64, 0.41, 0.8);
+}
+
+.deactivate h1 {
+  transform: scaleX(0) translateY(100%);
+  transition: 1s cubic-bezier(0.47, 1.64, 0.41, 0.8);
+}
+
+.deactivate p {
+  transform: scaleX(0) translateY(100%);
+  transition: 1s cubic-bezier(0.47, 1.64, 0.41, 0.8);
+}
