@@ -1,4 +1,5 @@
 # obs-socials-app
+![obssocialsapp](https://github.com/VERTIGOJACK/obs-socials-app/assets/120652039/fb008c68-8271-427a-8baf-3dac2c9668c9)
 A small browsersource app that periodically displays the users social media accounts on screen,
 meant to be used in conjunction with OBS (open broadcasting software) browser element.
 
