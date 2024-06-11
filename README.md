@@ -3,4 +3,4 @@ A small browsersource app that periodically displays the users social media acco
 menat to be used in conjunction with OBS (open broadcasting software) browser element.
 
 ## How to use
-1 Download the repository
+1- Download the repository
