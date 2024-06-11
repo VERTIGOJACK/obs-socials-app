@@ -1,9 +1,9 @@
 # obs-socials-app
 A small browsersource app that periodically displays the users social media accounts on screen,
-menat to be used in conjunction with OBS (open broadcasting software) browser element.
+meant to be used in conjunction with OBS (open broadcasting software) browser element.
 
 ## How to Install
-- Download the repository
+- [Download the repository](https://github.com/VERTIGOJACK/obs-socials-app/releases/tag/obs)
 - Unzip to any location on your system
 - Open obs
 - Add **browser** element to your scene
