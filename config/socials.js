@@ -1,4 +1,4 @@
-// add more or delete socials by adding more lines in the json array
+// add more or delete socials by adding or deleting lines in the json array
 //place your images in the image folder
 
 // Template:
