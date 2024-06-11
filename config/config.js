@@ -5,7 +5,7 @@
 
 const json = {
   speedSeconds: 5,
-  delaySeconds: 0,
+  delaySeconds: 10,
   titleColor: "white",
   textColor: "white",
 };
