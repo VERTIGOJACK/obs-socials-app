@@ -13,12 +13,12 @@
 // which is also the default behavior
 
 const json = [
-  { name: "instagram", handle: "vertigoxdigital", image: "instagram.png" },
+  { name: "Website", handle: "Vertigodigital.se", image: "vdd.png" },
+  { name: "GitHub", handle: "VERTIGOJACK", image: "github.png" },
   { name: "spotify", handle: "VERTIGOJACK", image: "spotify.png" },
+  { name: "instagram", handle: "vertigoxdigital", image: "instagram.png" },
   { name: "youtube", handle: "VERTIGOJACK", image: "yt.png" },
   { name: "soundcloud", handle: "VERTIGOJACK", image: "sc.png" },
-  { name: "GitHub", handle: "VERTIGOJACK", image: "github.png" },
-  { name: "Website", handle: "Vertigodigital.se", image: "vdd.png" },
   { name: "", handle: "", image: "" },
 ];
 
